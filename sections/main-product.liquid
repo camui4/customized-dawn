@@ -313,7 +313,10 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 857d49d787ebf2fd1ec9300645450e67acc2b209
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
@@ -380,9 +383,9 @@
                         {% if variant.available == false %}disabled{% endif %}
                         value="{{ variant.id }}"
                       >
-                        {{ variant.title }} 
-                        {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }} {% endif %}
-                        - {{ variant.price | money | strip_html }} 
+                        {{ variant.title }}
+                        {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
+                        - {{ variant.price | money | strip_html }}
                       </option>
                     {%- endfor -%}
                   </select>
@@ -390,7 +393,10 @@
                 </div>
               </div>
             </noscript>
+<<<<<<< HEAD
             
+=======
+>>>>>>> 857d49d787ebf2fd1ec9300645450e67acc2b209
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
