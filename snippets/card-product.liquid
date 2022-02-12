@@ -16,10 +16,6 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 857d49d787ebf2fd1ec9300645450e67acc2b209
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
@@ -136,10 +132,6 @@
                 <span class="visually-hidden">{{ card_product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
               </p>
             {%- endif -%}
-<<<<<<< HEAD
-=======
-
->>>>>>> 857d49d787ebf2fd1ec9300645450e67acc2b209
             {% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
