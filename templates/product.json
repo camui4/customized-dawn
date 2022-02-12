@@ -124,11 +124,19 @@
             "title": "Hassle-Free Exchanges",
             "link_label": ""
           }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Columna de Prueba",
+            "link_label": ""
+          }
         }
       },
       "block_order": [
         "column-0",
-        "column-1"
+        "column-1",
+        "column-2"
       ],
       "settings": {
         "title": "",
