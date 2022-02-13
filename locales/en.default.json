@@ -146,11 +146,7 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "include_taxes": "Tax included.",
-<<<<<<< HEAD
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout."
-=======
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
->>>>>>> 2ad45b05d82c1c9a150d41424951f8ec4d203672
     },
     "modal": {
       "label": "Media gallery"
