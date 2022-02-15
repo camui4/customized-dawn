@@ -1236,6 +1236,7 @@ button.shopify-payment-button__button--unbranded,
 button.shopify-payment-button__button--unbranded {
   min-width: calc(12rem + var(--buttons-border-width) * 2);
   min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+  border-radius: 100px;
 }
 
 .shopify-payment-button__button--branded {
@@ -1287,7 +1288,7 @@ button.shopify-payment-button__button--unbranded {
   position: absolute;
   inset: var(--buttons-border-width);
   z-index: 1;
-  border-radius: var(--buttons-radius);
+  border-radius: 100px;
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
   transition: box-shadow var(--duration-short) ease;
@@ -1304,6 +1305,7 @@ button.shopify-payment-button__button--unbranded {
 
 .button--secondary:after {
   --border-opacity: var(--buttons-border-opacity);
+  border-radius: 100px;
 }
 
 .button:focus-visible,
