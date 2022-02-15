@@ -6,6 +6,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Bienvenido",
               "color_scheme": "background-1",
