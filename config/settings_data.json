@@ -1,6 +1,7 @@
 {
   "current": {
     "colors_accent_1": "#1b5b99",
+    "buttons_radius": 40,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
