@@ -21,13 +21,13 @@
 
 <div>
 {% for collection in selected_product.collections %}   
-  	{%- assign title = collection.title -%}
-  	{% if title contains "JEAN" %}
+  	
+  	{% if collection.title contains "jean" %}
   		Hey there, Shopify employee!
   		
 	{% endif %}
   
-  <li> {{title}} </li>
+  <li> {{collection.title}} </li>
 {% endfor %}
 </div>
 
