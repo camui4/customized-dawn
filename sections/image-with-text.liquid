@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 
-let product = product.selected_or_first_available_variant.product;
+{%- assign product = product.selected_or_first_available_variant.product -%}
 
 {{product.id}} 
 
