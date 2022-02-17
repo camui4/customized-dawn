@@ -24,8 +24,10 @@
   	{%- assign title = collection.title -%}
   	{% if title contains "JEAN" %}
   		Hey there, Shopify employee!
-  		<li> {{ collection.title }} </li>
+  		
 	{% endif %}
+  
+  <li> {{ collection.title }} </li>
 {% endfor %}
 </div>
 
