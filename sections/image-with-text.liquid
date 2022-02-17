@@ -20,13 +20,14 @@
 
 <div>
 {% for collection in selected_product.collections %}   
-  	
+  	<li> {{collection.title}} </li>
+  
   	{% if collection.title contains "Jeans" %}
-  		Hey there, Shopify employee!
+  <a>Hey there, Shopify employee!</a>
   		
 	{% endif %}
   
-  <li> {{collection.title}} </li>
+  
 {% endfor %}
 </div>
 
