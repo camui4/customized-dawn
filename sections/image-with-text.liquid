@@ -14,13 +14,12 @@
   }
 {%- endstyle -%}
 
-{% for product in collections.frontpage.products %}
-  {{ product.title }}
-{% endfor %}
+let product = product.selected_or_first_available_variant.available;
 
-product = product.selected_or_first_available_variant.available 
+{{product.id}} 
 
-{{product.id}}
+
+
 
 
 
