@@ -14,11 +14,11 @@
   }
 {%- endstyle -%}
 
-{%- assign product = product.selected_or_first_available_variant.product -%}
+{%- assign selected_product = product.selected_or_first_available_variant.product -%}
 
-{{product.id}} 
+{{selected_product.id}} 
 
-{% for collection in product.collections %}
+{% for collection in selected_product.collections %}
     {{ collection.title }}
 {% endfor %}
 
