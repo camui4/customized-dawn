@@ -22,7 +22,7 @@
 <div>
 {% for collection in selected_product.collections %}   
   	
-  	{% if "{{collection.title}}" contains "Jeans" %}
+  	{% if collection.title contains "Jeans" %}
   		Hey there, Shopify employee!
   		
 	{% endif %}
