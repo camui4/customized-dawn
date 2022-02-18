@@ -30,6 +30,8 @@
   
   {{ collection.metafields.my_fields.foto_coleccion | img_tag }}
   
+  {{ collection.metafields.my_fields.descripcion_texto }}
+  
   {%- assign section.settings.image = collection.metafields.my_fields.foto_coleccion -%}
              
 	{% endif %}
