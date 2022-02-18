@@ -31,7 +31,7 @@
   
   		{{ collection.metafields.my_fields.foto_coleccion | img_tag }}
   
-  this.section.settings.image = collection.metafields.my_fields.foto_coleccion
+  {%- assign section.settings.image = collection.metafields.my_fields.foto_coleccion -%}
              
 	{% endif %}
   
