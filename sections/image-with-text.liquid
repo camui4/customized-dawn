@@ -24,9 +24,8 @@
 {% for collection in selected_product.collections %}   
   	<li> {{ collection.title }} </li>
   
-  	{% if collection.title contains "Jeans" %}
-  
-  		<a>Hey there, Shopify employee!</a>
+  	{% if collection.title contains "Jeans" %}  
+  		
   		{{ collection.metafields.my_fields.titulo_texto }}
   
   {{ collection.metafields.my_fields.foto_coleccion | img_tag }}
