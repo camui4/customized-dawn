@@ -145,6 +145,7 @@
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/portada-video1.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=1lE78e-K3U4",
         "description": "",
         "full_width": false,
